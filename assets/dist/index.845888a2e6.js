@@ -1,0 +1,1 @@
+(()=>{"use strict";$("#highlights .btn").on("mouseover",(function(){let t=`<strong>${$(this).text()}</strong>`;const h=$(this).attr("title");h&&(t+=": "+h),$("#highlight_text").html(t)}))})();
